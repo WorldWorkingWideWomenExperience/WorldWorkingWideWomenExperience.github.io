@@ -1,16 +1,12 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  height: 50px;
+  padding: 10px;
   color: white;
 }
 
@@ -21,6 +17,44 @@
 .App-intro {
   font-size: large;
 }
+
+#new-poll {
+  padding: 10px;
+  width: 30%;
+  margin: 10px auto;
+}
+
+#submit-button {
+  border-radius: 5px;
+
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: 200;
+
+  margin: 5px 0px 0px;
+  padding: 8px 10px;
+
+}
+
+#all-polls {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+
+  margin: 1rem;
+}
+
+.poll {
+  margin: 10px;
+}
+
+.poll-input {
+  margin: 3px;
+}
+
+input {}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
